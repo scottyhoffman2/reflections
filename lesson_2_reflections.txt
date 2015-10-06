@@ -1,0 +1,14 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	When you initialize a repository, you create a home for all of your .git
+data to stay. You need to do this because in some cases, there may not be a 
+.git repository for your project and you'll be working from the ground up! It
+also is necessary to staying organized within your project. 
+
+How is the staging area different from the working directory and the
+ repository? What value do you think it offers?
+
+	The staging area is different in that it is a place where you can
+see what files will be involved in the commit before actually making. There is
+value in seeing that you might've called an incorrect file or one may be 
+missing.

@@ -1,0 +1,33 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+	When 2 different version of a file are similar, the differences jump out right away. It was also easy to see the misspelling of ‘space’ as ‘space’ – so far, I know no function called a ‘spacr’. 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    That access would make you more efficient in that you could see where mistakes, etc., pop up in between versions leading to less troubleshooting time when correcting the issue.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The biggest pro is that each commit can be done at a logical point in time – after a block of code, after a fix, etc. Contrastingly, the con in an autosave may cut a line of code in half, possibly preventing your code from even running. The pros of autosave are good for a forgetful programmer, but committing a version at the correct time should be an obvious priority to whatever the task is.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because Git is programming-specific, I would think it was initially planned to save across different platforms/languages. Something like Google docs is a little different – it’s more like a single document passing through multiple hands whereas the game.js has multiple levels to it (i.e., HTML, CSS).
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log shows you the history of the file – every person who’s written a line of code on it and their comments regarding that. Git diff allows you to view the changes to that history - both additions and subtractions - leading up to the finished product.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Git keeps tracks of each change made, so a risky change that completely bugs out a whole game could very simply be found and corrected running a git diff. The risks you can take are greater because the clean up is so minimal.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    To build something, of course!
