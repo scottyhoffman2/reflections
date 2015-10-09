@@ -12,3 +12,30 @@ How is the staging area different from the working directory and the
 see what files will be involved in the commit before actually making. There is
 value in seeing that you might've called an incorrect file or one may be 
 missing.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	The staging area shows exactly what files have been worked on, and so it’s easy to 
+see that you’ve only enacted a logical change for that commit. This way, you won’t commit
+to index.html, game.js, etc. ALL at one time.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	It allows you to see what versions are out there and then by running running a git 
+diff, you can tell exactly what’s different between them. Branches help keep things both 
+separate and easy to differentiate between.
+
+How do the diagrams help you visualize the branch structure?
+	
+	It recalls a familiar shape: the tree. By viewing it in a diagram, it’s easier
+to visualize the nonlinear history of these pathways. 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	The result of merging two branches together is that now you have a single location from which you can access the old and separate pathways of both branches. It’s a visual action.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	The pro of automatic merging is that it’s incredibly fast, easy and fool-proof
+if there are no conflicts. To always merge manually, it would take more time, especially
+if there were no conflicts in between versions.
