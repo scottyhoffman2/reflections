@@ -1,1 +1,7 @@
 When would you want to use a remote repository rather than keeping all your work local?
+
+	Remote repositories are useful because they keep all of that data accessible and in a safe place. If everything is local, losing a laptop can mean losing a lot of work. So, if you are committing your changes regularly, you’ll have nothing to worry about!
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+	There could be some code that needs debugging in the in the remote repository, and so if you’re working on a fix locally, it would be a disaster if Git auto-versioned! Like the last prompt, if you are good about committing and saving your work at logical points, this system should work for you.
