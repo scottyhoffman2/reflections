@@ -5,3 +5,11 @@ When would you want to use a remote repository rather than keeping all your work
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 	There could be some code that needs debugging in the in the remote repository, and so if you’re working on a fix locally, it would be a disaster if Git auto-versioned! Like the last prompt, if you are good about committing and saving your work at logical points, this system should work for you.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+	1) Forks are basically clones created in GitHub and they are useful for editing a repository that you might not necessarily have access to the master branch of.
+	2) Clones are complete copies of a repository, allowing you to edit, etc. Can be stored locally.
+	3) Branches are different paths running of a repository's commit history. Earlier, in the Asteroids game, we created a branch called "easy-mode" and changed some of the game's parameters. Using that branch, we are then able to try different things on it that won't effect the master branch, at least, not until we decide to merge the two.
+
+
