@@ -12,4 +12,10 @@ Describe the differences between forks, clones, and branches. When would you use
 	2) Clones are complete copies of a repository, allowing you to edit, etc. Can be stored locally.
 	3) Branches are different paths running of a repository's commit history. Earlier, in the Asteroids game, we created a branch called "easy-mode" and changed some of the game's parameters. Using that branch, we are then able to try different things on it that won't effect the master branch, at least, not until we decide to merge the two.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
 
+	It’s beneficial if you’re going to be offline for a while; you can still continue to work on the most recent state of the remote that way.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	Without Git or GitHub, you would have to keep copious notes of changes and versions when swapping them back and forth. It would be easier in that you don’t have the learning curve of Git to worry about, but it would be harder in the sense that Git address many inconsistencies both simply and automatically so you can see discrepancies clearly. I’m unsure of the alternative to running a git diff between 1,000 lines of code, but, I bet it’s time-sucking. 
